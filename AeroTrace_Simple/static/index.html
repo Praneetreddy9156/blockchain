@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AeroTrace Simple</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="layout">
+  <aside class="sidebar">
+    <a class="wordmark" href="#overview" aria-label="AeroTrace home">
+      <svg viewBox="0 0 64 64" aria-hidden="true"><rect width="64" height="64" rx="14" fill="#00205B"/>
+        <path d="M14 40 L32 14 L50 40 L41 40 L32 27 L23 40 Z" fill="#fff"/><circle cx="32" cy="47" r="4" fill="#38BDF8"/></svg>
+      <span>AeroTrace</span>
+    </a>
+    <nav class="nav" aria-label="Main">
+      <a href="#overview" data-page="overview"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="7" height="9" x="3" y="3" rx="1"/><rect width="7" height="5" x="14" y="3" rx="1"/><rect width="7" height="9" x="14" y="12" rx="1"/><rect width="7" height="5" x="3" y="16" rx="1"/></svg>Overview</a>
+      <a href="#parts" data-page="parts"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/><polyline points="3.29 7 12 12 20.71 7"/><line x1="12" x2="12" y1="22" y2="12"/></svg>Parts</a>
+      <a href="#actions" data-page="actions"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20h9"/><path d="M16.5 3.5a2.12 2.12 0 0 1 3 3L7 19l-4 1 1-4Z"/></svg>Actions</a>
+      <a href="#documents" data-page="documents"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14.5 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7.5L14.5 2z"/><polyline points="14 2 14 8 20 8"/><path d="m9 15 2 2 4-4"/></svg>Documents</a>
+      <a href="#ledger" data-page="ledger"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg>Ledger</a>
+    </nav>
+    <p class="sidebar-note">Individual academic project · Blockchain Technology. Simplified version. All organisations and records are synthetic.</p>
+  </aside>
+
+  <div class="main-col">
+    <header class="topbar">
+      <div class="topbar-row">
+        <a id="chain-pill" class="pill ok" href="#ledger">Checking the chain...</a>
+        <label class="actor" for="actor">Acting as
+          <select id="actor" class="input" aria-label="Acting as"></select>
+        </label>
+      </div>
+      <div class="disclaimer"><strong>Academic demonstration only.</strong> Not an aviation maintenance, airworthiness,
+        release-to-service or regulatory decision system. All organizations, users, components and records in the demonstration are synthetic.</div>
+    </header>
+    <main id="page" aria-live="polite"></main>
+  </div>
+</div>
+<script src="app.js"></script>
+</body>
+</html>

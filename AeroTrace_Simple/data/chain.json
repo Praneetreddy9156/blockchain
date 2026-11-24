@@ -1,0 +1,443 @@
+[
+ {
+  "index": 0,
+  "timestamp": "2026-11-19T09:07:30Z",
+  "previous_hash": "0000000000000000000000000000000000000000000000000000000000000000",
+  "merkle_root": "9ceebd4e0084cf9ca3af9616ac54559ddd9255291ce3b004d54fa1cd64cf7ed6",
+  "hash": "f15ab692939ea62b3d88a63727906fc18463fb996393e394d462f60eb3e2b010",
+  "signature": "e88395db2c543f36d7e1e48d8fc4bb4d04f8cd852705e9891d50a7391ab2b34fcc8c5ce4b465de2c38b0124f82a057d284d297999c15a773fad5a9c61bd44e03",
+  "transactions": [
+   {
+    "action": "GENESIS",
+    "member": "DAA",
+    "data": {
+     "network": "AeroTrace Simple - fictional consortium",
+     "members": {
+      "AEROWORKS": {
+       "name": "AeroWorks OEM",
+       "role": "OEM",
+       "public_key": "5c76798058c0b959bb3abd1955c43b116288e8e1738a1a23671d2931589c1362"
+      },
+      "SKYLINK": {
+       "name": "SkyLink Airways",
+       "role": "AIRLINE",
+       "public_key": "df0cc0d3802810375530553000a6d3044c10a763d04e2da268269abf18507b7e"
+      },
+      "NORTHWIND": {
+       "name": "Northwind Regional Airlines",
+       "role": "AIRLINE",
+       "public_key": "f8f61a5d8ed9c4ae9bd4f517ed28485f6f9a684c635f987406fb02ab0fdc3f2d"
+      },
+      "PRECISION": {
+       "name": "Precision MRO",
+       "role": "MRO",
+       "public_key": "fab056944a7dd2caf40edbb035cc1a4c95ec36d943ce49aa46826c2b3a672681"
+      },
+      "DAA": {
+       "name": "Demo Aviation Authority",
+       "role": "REGULATOR",
+       "public_key": "69e848535df029cffc9454c2aa4da31b8144499d045a823ab1d8c7456d1a2cdb"
+      }
+     },
+     "orderer_key": "ea5cb58a67028d91055668bd6b55692310215d877de713f16dcbd50c102ccf3f",
+     "policy": {
+      "min_approvals": 3,
+      "must_include": "REGULATOR"
+     }
+    },
+    "timestamp": "2026-11-19T09:07:30Z",
+    "signature": "b6378e8cb5cfd69ac952b6d4ee4afcec10494b086288debaa4ebccfb062bfce27a3d1363f5be1e0134fbad8cc9b0ea00d860600d0798fb9d8fa754327abe2106",
+    "approvals": []
+   }
+  ]
+ },
+ {
+  "index": 1,
+  "timestamp": "2026-11-19T09:07:30Z",
+  "previous_hash": "f15ab692939ea62b3d88a63727906fc18463fb996393e394d462f60eb3e2b010",
+  "merkle_root": "356da8ebfa1a95bfde005c73f6fef611cbafae205ce7cad402426b20281f9b3d",
+  "hash": "2890eb97cb47fcc485ecc3df3965d51e7c0559beaa8b7fea06ab1d608b42cfcb",
+  "signature": "25137e5573f69abf4e38ae466d54f5b25571e0461ac528ba31ee2351917c245fd8eabe28ebf0073b71af7861edd0d8f44fc19f9f8a959df55e697b4ffe06b609",
+  "transactions": [
+   {
+    "action": "REGISTER",
+    "member": "AEROWORKS",
+    "data": {
+     "serial": "ATX-CFM56-TB90210",
+     "description": "HPT stage-1 turbine blade set",
+     "max_cycles": 5000,
+     "max_hours": 20000,
+     "certificate": "3e61e4ba77451991435c7f5244c2572f3c154cc45345a3facc8ac88affdc1e3d"
+    },
+    "timestamp": "2026-11-19T09:07:30Z",
+    "signature": "68dece24feca57d548d6f122ab2c2e961959dc701d0cd0fad12ca8283393e2029b289111c18e52f4ef536be4e6ef4757329bb3590503be28daef0b539692ea0a",
+    "approvals": [
+     {
+      "peer": "AEROWORKS",
+      "signature": "34974fbb20c6a8addbd8445352b8d1aa1b4408c5d512b5778efc167c7b1dc089eb70d8f09ab824b72e6be4053f5c151deb84a5e5c50c9be7184bf3760e58550a"
+     },
+     {
+      "peer": "SKYLINK",
+      "signature": "8169efed0d3e468238a36669689f6f385919b7b5d40bd1af99bbd739d0c137603b056e72c9cca7aa6d8b99f2bf817c66475cce64de9547c286fc34664c96d908"
+     },
+     {
+      "peer": "NORTHWIND",
+      "signature": "a9fb07cf7d15866d5cc1ef68a582a46b94fcdc54c32522409b36c64cdf6384cbb6f9d3fbb6cd21f325788b638d9ee6ed9375084b5d96b0eb3e980353f746e50d"
+     },
+     {
+      "peer": "PRECISION",
+      "signature": "503837ce67ede9e0082d87a509a4222aa21ead2327f8995c929ae43cb9266d572649b26d5819f5231156296c368895ae7c996e95ad101cf0e35d6a4e50612f00"
+     },
+     {
+      "peer": "DAA",
+      "signature": "7237b62fd9fc193240dfdf816fc2caf1b40c450122559da8af14a56f239f711b96dff3f84428120ecfb7f96736c5528a2bcc740298ac9dbc38864ba62fb59b05"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "index": 2,
+  "timestamp": "2026-11-19T09:07:30Z",
+  "previous_hash": "2890eb97cb47fcc485ecc3df3965d51e7c0559beaa8b7fea06ab1d608b42cfcb",
+  "merkle_root": "6471bdb768a4c0a238c2e463211e0aab8f49607c67cfbcf0e55ff88b21ec7a91",
+  "hash": "02e3d7922d010ed3f0348ba51d1983c28333ad1bced48320ab4c91b651a64342",
+  "signature": "dbc064c2ec2b8a7d197ded5e7942f9be5b76dfe12f15febeab16fbb21465ab30d66897938c1a593a902f786201a15fb6a24603b2e9670c65a5705ffbdda1aa06",
+  "transactions": [
+   {
+    "action": "TRANSFER",
+    "member": "AEROWORKS",
+    "data": {
+     "serial": "ATX-CFM56-TB90210",
+     "to": "SKYLINK"
+    },
+    "timestamp": "2026-11-19T09:07:30Z",
+    "signature": "b0324a945d3097b6f874a96342739cef6a94f33549c17db55dc02fab599af6df01f9017576e2ae5ad454a800e84e8322b50a2f84afbf8eedffc28b60f97b6909",
+    "approvals": [
+     {
+      "peer": "AEROWORKS",
+      "signature": "86c58d49b4ad82e8fd14b6ab07339fcf92186cfb7eac60380efd4e181077ebaa5dcbb846f5579f3ddde5c70532293667f1805acff88e4e22bdee414c51b30108"
+     },
+     {
+      "peer": "SKYLINK",
+      "signature": "74e3a60930ca28378bd44478429f2618fd799b2d39cf38de2afdb83a01b06a72dd8de3974abcc80661b435e337f6403b97a7d9d165a850bb456e2f83c8d8030f"
+     },
+     {
+      "peer": "NORTHWIND",
+      "signature": "8b4db770090b033dc3052bf46d5ce60bf30bb18154f1dcb43ee61cd9610248ab1b7dcbb8aa5dfbeb6dcbeaa109d7d7d1ef151cde15c23b89012652719c7c0008"
+     },
+     {
+      "peer": "PRECISION",
+      "signature": "ab591666f1e5795e34eaf9c77601b24b5950e31764c64e492cebb225890e93f46fb49f38fd3c96bea00aca032afa7695c694c6c37c7482e5aeddc449bb5dea0f"
+     },
+     {
+      "peer": "DAA",
+      "signature": "c2c9930f739051aa6afc253f7cbed688ce8a41115ecdfb951a5a1c5fbb705527ded21d2afec088e403784aae4f9a9430b5837d434593ca89206bbb9ba7ceee0e"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "index": 3,
+  "timestamp": "2026-11-19T09:07:30Z",
+  "previous_hash": "02e3d7922d010ed3f0348ba51d1983c28333ad1bced48320ab4c91b651a64342",
+  "merkle_root": "d8d0b39042c03e9e5bbb29acfa11b0226f055fa06e5eefb480fe7036b88d1441",
+  "hash": "a8ef7ee336aacbb16d3dfded4097e7bf19d666e6183327da4f5b1d75d2078737",
+  "signature": "67133fb69dc090c1a2be40a53c9ae303589af78af582411c3bad003225696128aed73dd3d146d8f66fb7fd7fdd0b2dd6165039e70eea93a15263adabf36c4101",
+  "transactions": [
+   {
+    "action": "INSTALL",
+    "member": "SKYLINK",
+    "data": {
+     "serial": "ATX-CFM56-TB90210",
+     "aircraft": "SL-A320-DEMO1"
+    },
+    "timestamp": "2026-11-19T09:07:30Z",
+    "signature": "87a9c97f1a92e04fb606c0086f7efa70eab8ea04c2db4b149209b7727974bf61b1ec71fec26e0563f34ec6f5683c8340cc7c2d956276e82768679a5b0712080b",
+    "approvals": [
+     {
+      "peer": "AEROWORKS",
+      "signature": "08a1fd9e8f860f5fc7c8493f436de47645696884c47dc4f96f4a63f630877b50c39ccaefc56e9d4e7212e8803b45709772d963eb27f1c4a988862fd1aedb360c"
+     },
+     {
+      "peer": "SKYLINK",
+      "signature": "f148c98778200e8f758a216471e718d4e73ea8a7f0a8383ac7dcebf964c10c696a2e4fbec550d1ec7b6220638927ca6feb2be7655e905f81f2b6142443902b06"
+     },
+     {
+      "peer": "NORTHWIND",
+      "signature": "6252b86d707a2480ebc7c9d9dbaa3e5c0a87bff6222d94d1719ac4f796ba7718274f91c1381efe09c9522a8d5a338e0e084c3ca62774e4f27cf940d53c63a801"
+     },
+     {
+      "peer": "PRECISION",
+      "signature": "039bc24dd51aad1b0c14f21648b6a512e5f5572a3176d582777765a27bda85ada8b0fc35f264cf1056b68289003e3c70c1ac174faa99317e6a1178bff047b000"
+     },
+     {
+      "peer": "DAA",
+      "signature": "0abc8405721a216d0d769ae396747aaf5892fbc2b677a989af1f65211f35cd724563fe1692e822be4902cf7a418d05f55c459eb5e5b3c35e307822b75e3fe70b"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "index": 4,
+  "timestamp": "2026-11-19T09:07:30Z",
+  "previous_hash": "a8ef7ee336aacbb16d3dfded4097e7bf19d666e6183327da4f5b1d75d2078737",
+  "merkle_root": "bd8bfdba394216855fcbb326683fa229de928778f8e1be29558f64acdbab400e",
+  "hash": "1f00f066c2a2fe912589d3656c89e21fd7824e6ea1d2abdec103175c33845c45",
+  "signature": "c97b982e118f504723be163197d5beafdc71d6819af3428047fe0134e1e048544e2824d33bff146869f71da6268749f002c2e426d037db8133183d52ca1c1905",
+  "transactions": [
+   {
+    "action": "USAGE",
+    "member": "SKYLINK",
+    "data": {
+     "serial": "ATX-CFM56-TB90210",
+     "cycles": 4200,
+     "hours": 9850
+    },
+    "timestamp": "2026-11-19T09:07:30Z",
+    "signature": "2b1032925875f0dc0f93175a282d1889d5b4729e4aa0dbefee2434730a894d1b5dd24624ac13a1fbdf19107e31df205c669bb9f6e2c738452a84d9413722ca01",
+    "approvals": [
+     {
+      "peer": "AEROWORKS",
+      "signature": "178f77f1666612d94c964602fc09d6ae1d10079e540f18c5d32331fd3db46e205d261d45d90cbf53d17bc7c628a151c2d2a161173fe46fe040061672d8c79f08"
+     },
+     {
+      "peer": "SKYLINK",
+      "signature": "ff317c6a569970f0c388a3fc1b1f980adf86981da2489b5221fe88115dd724721d682a1a890b2da4220c2fce5e27a72f2821a543be749a82d784be58cb903409"
+     },
+     {
+      "peer": "NORTHWIND",
+      "signature": "adda3bf67b40d392c84439c83667bfd577f42b88f88a3b0a59705d241fd00b8bbbd77e1e5c3458d4bfc49580b50ae90561a79414cb8e542e8914bef4fc67260d"
+     },
+     {
+      "peer": "PRECISION",
+      "signature": "9c51eac06e7fcb635f74ba93d0f8f53c2f89471862c919c9f73caff43c01eb2b6c22e4b2d56da0ed8e95ff6ab2333757b13a12b2592f86060cd587c9f74fbd02"
+     },
+     {
+      "peer": "DAA",
+      "signature": "effd41e62e631c15fadbaff54eee7edadd62efccf46b7a2019b65ef79fb3dbe882f6e76a4a892bfc1a47648dc34e8f8260c7175b626b8ae5c42aea9bb704a502"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "index": 5,
+  "timestamp": "2026-11-19T09:07:30Z",
+  "previous_hash": "1f00f066c2a2fe912589d3656c89e21fd7824e6ea1d2abdec103175c33845c45",
+  "merkle_root": "f72726fea06c927d3139ed6cef9fb6afd1db67fb51c952dbab6af88116ab14b7",
+  "hash": "4965561203ccb8d9651d35ef3c2b645bdeb4dba64223426a31ccc760aff433f2",
+  "signature": "ab5fa3a15d8ef284a2e6c53e9d3188e88a2054919782df1e50683b8ca12d0afa03020ec995c504e570e66205820525a72ebaaf0fdfa0a34ffb4eaded9d239302",
+  "transactions": [
+   {
+    "action": "REGISTER",
+    "member": "AEROWORKS",
+    "data": {
+     "serial": "ATX-B787-LG7731",
+     "description": "Main landing gear actuator",
+     "max_cycles": 20000,
+     "max_hours": 60000
+    },
+    "timestamp": "2026-11-19T09:07:30Z",
+    "signature": "34f05ae7bc7c8331d98a411736d9c9c5be157a899efefc2bf0424fa2583b0d0c646f3f9885cfcda4018b64ddb453acfc547dfc62a78951165b76acb5160c310e",
+    "approvals": [
+     {
+      "peer": "AEROWORKS",
+      "signature": "b7cadd22f2a5106959823dc43720a5a3139ec623df25f8e3269b4f1587ec70c83ef78cd5614f4175c18896a60098c6c1326a152a0b75fda6b843a2ee6a20a703"
+     },
+     {
+      "peer": "SKYLINK",
+      "signature": "5549a69d3f8b0382a90a7f4a6375a57c592c8ad2a05d47da5af4d54682e6c7b71fa060021ce01060b7f9d519b001675291952598dfaf8dfacd3369e18682ab02"
+     },
+     {
+      "peer": "NORTHWIND",
+      "signature": "6abc337647f1950d7367e3892ca2d0b920dfa51d71a308f6a8ff9fb153d963fdafce6152f0ec5a2932dbe50fbd7ebdb28cd34f9faada6c3558d837d55454d209"
+     },
+     {
+      "peer": "PRECISION",
+      "signature": "5ce70fdac185669b083ca8c09f5e0620af433a3aff1baf7324516987b69a55dabbbaf38a4810cf3aa1e27d820b41e412e3d7a7c8ed4e5bec00870dcda07d3103"
+     },
+     {
+      "peer": "DAA",
+      "signature": "22d857329b525e6bc6e052ebc7d4f2dd6325c07344f7775c93fb61582870dece92a573341ebf90f9b053e1c63d274e675ac4ddd26d0c527a55d35c72a3ac2202"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "index": 6,
+  "timestamp": "2026-11-22T08:44:37Z",
+  "previous_hash": "4965561203ccb8d9651d35ef3c2b645bdeb4dba64223426a31ccc760aff433f2",
+  "merkle_root": "d21c487903cd975e0fa6bda1f58911973d2acca711d351c0b81507bcda85461e",
+  "hash": "022d3c2a4135786a3042d1e770cb1485216dc40000c4a0b0728a50d9466a546a",
+  "signature": "91567777f21c4f9b7a1bb9d362efcc89490b881d165854b1180f3b18fa41655eb1b1fc211bc2f6dcb7cada26d1cf5397bf3d1d100d14c77109ee753b6acab90e",
+  "transactions": [
+   {
+    "action": "REGISTER",
+    "member": "AEROWORKS",
+    "data": {
+     "serial": "ATX-DEMO-003",
+     "description": "Engine",
+     "max_cycles": 5000,
+     "max_hours": 20000,
+     "certificate": "3e61e4ba77451991435c7f5244c2572f3c154cc45345a3facc8ac88affdc1e3d"
+    },
+    "timestamp": "2026-11-22T08:44:37Z",
+    "signature": "7139151da71d41f634c015c87f7dbf749b77b6582485be5d1ccb7e760cc7501bfbb64be71015c4c6027361a252d937885e7c1f4e56248ed8ad0af58f228b7805",
+    "approvals": [
+     {
+      "peer": "AEROWORKS",
+      "signature": "abf033d93ea0e8aa5b82e2a3b2557a5187a442f43991b9bd729bb17758597fd85960ffdfb3cf5cfabe49c501e45d69d1bacb8beb09ac2764681ee8cc01f9f50c"
+     },
+     {
+      "peer": "SKYLINK",
+      "signature": "83064199fadb9b5ccb3c585f8f4f6946a50887c2a0812680e1a1980c363a36d26d4f1c8d71c2e6430c3b3ebaeb52dc189fa4abb2c2e694374a768339dfd17d0a"
+     },
+     {
+      "peer": "NORTHWIND",
+      "signature": "a7c3ef08207beabfe50b9837590dbb260b7777d4cf1e1f593c8253ac06946dd4e04d2d5356a426078b29cfbeecfdfa71e548b44372e8a2cdc484dc926094f60c"
+     },
+     {
+      "peer": "PRECISION",
+      "signature": "8d5e4f0e135c90f9188ac41154d86fb50b451183e4450609667bf6f71d7cdc388174986f4ba154d7c859d6efcb12c30f7672132dc2705c68ea759e15d1d4a606"
+     },
+     {
+      "peer": "DAA",
+      "signature": "6f343e9f314a5968432bfb3e026e82b798ecb0ceda9ef91f3eb61ac400183c38fc034f9a3fcf3c69fa168a73b58d4952cf3bff3c05ec03decebf85c517b7d708"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "index": 7,
+  "timestamp": "2026-11-22T08:45:31Z",
+  "previous_hash": "022d3c2a4135786a3042d1e770cb1485216dc40000c4a0b0728a50d9466a546a",
+  "merkle_root": "6f948a0bc57555f578cfe2ec4eb785e788e8eb4154ca3be55ea886115b02b641",
+  "hash": "efc268443362bd7caf3861ae0acd6a18460aaba02cc06441c1922787b0b851cc",
+  "signature": "0cd8043d3c2b6c10d3b35773836a67ae34fb62b6d4946d51d1e73a793d6291bf1a81dd753afc8d1214d5a83e54adc505b8abc0991e88cb688d36ff152d8ecf0f",
+  "transactions": [
+   {
+    "action": "REMOVE",
+    "member": "SKYLINK",
+    "data": {
+     "serial": "ATX-CFM56-TB90210"
+    },
+    "timestamp": "2026-11-22T08:45:31Z",
+    "signature": "7ef183e6a0d5c606ef89865997245dcd9678423c69d759818aee833605b8248b95c87ca19251c620ad2d6c65072f2abcef43d3f176bf58fded46579212a3fa09",
+    "approvals": [
+     {
+      "peer": "AEROWORKS",
+      "signature": "bccf6460bda223c820a69ff02baa7443d83b0faa2b93869797e4ae2c1a2a42f2e7b460c9ba1c4f1cbf1cb226a4ad52ed3868ad6bdd92c0f30f6317ec8b22950d"
+     },
+     {
+      "peer": "SKYLINK",
+      "signature": "9cb226ba5453645a094ff23cba8a9cbf77a0ac1cddb613b83b4f8033db335d2c7b0b8602170ee36117165cb6a1ae10623ff199fdbc034d2a0444dbbd4fa8f003"
+     },
+     {
+      "peer": "NORTHWIND",
+      "signature": "c08462acdc37d95c0a3760dbf6d1081a387664a01e2bfafc93e32e36b2adc3be57314cdb4e3ea66d03b61daf8d9b1cae8e6f93448c39549e2c52d43efcd42d0f"
+     },
+     {
+      "peer": "PRECISION",
+      "signature": "ef3ab9bbc1f82259c1eaa517db7cbd36ce92a2e5a3e550321201dc9d547a2b979ad65b627e44f1aeb8fc331210a60a2f23cd3a226b3a9c553779ffff69ec8404"
+     },
+     {
+      "peer": "DAA",
+      "signature": "f82b175d500b01d9ed92da4cdcc4d02c8e6c53070516a17b6a899dff8cba7a562ca223bf0f57abdf77076cb314730c800e2fa6e432154088806eb4a5967ca30e"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "index": 8,
+  "timestamp": "2026-11-22T08:46:21Z",
+  "previous_hash": "efc268443362bd7caf3861ae0acd6a18460aaba02cc06441c1922787b0b851cc",
+  "merkle_root": "239a25599a557b8a0a684ac9a3159e77ab35e77097b75076673e634c22815d5b",
+  "hash": "efa74c60b3a8195b895cbf5ebe86e018d32d7a6550d07fc11943791e15135287",
+  "signature": "5e842d442b1c965829e92a6b3b6db30b1ce27dc145dc424075a770687327b08d422ca453d10a31403e3978a02a6a6fd2598bc6a78d0bf6b63799ce42f48d9405",
+  "transactions": [
+   {
+    "action": "INSTALL",
+    "member": "SKYLINK",
+    "data": {
+     "serial": "ATX-CFM56-TB90210",
+     "aircraft": "FTFT"
+    },
+    "timestamp": "2026-11-22T08:46:21Z",
+    "signature": "847ee8517b7e46b2356aac45cb7d0e3644a47cb3bc02cfbd2d7a3b1e60cff360eb93ca93cf1c3d2a44d8c11e9d296282cc3f070b86547ea333e87f42851d5b0d",
+    "approvals": [
+     {
+      "peer": "AEROWORKS",
+      "signature": "efc78536f66f144f034670d1950e12da583c8e9088c6ad552058329aa206f25af8b18b77628ad4ca61000ee77f666c555ed7f6b779277bbd5078d6002d7b160e"
+     },
+     {
+      "peer": "SKYLINK",
+      "signature": "45a2b49486ffb02f95d93cfe362ff6610b91bfa9c6c5113706b71f8c66b94370791ec1cfe5c9b9f977c088d212673a4a2983739b613ea68c732ce2d84638a002"
+     },
+     {
+      "peer": "NORTHWIND",
+      "signature": "2a84a8207a1dcd2425d3ebdd18308316409904b424586902e9aa367da0419fe959d2be1b02d13c74676417625fffa3b733fe50f8659678da0ad9404658395f07"
+     },
+     {
+      "peer": "PRECISION",
+      "signature": "30ea7fac634c05e50581a4d1592f4f147c1eb76efd0bf0c88088f5de0ca601df38373cca955d70c092adfbf4e3c404f9f2bad5cfb97f79f56701d52370b4100b"
+     },
+     {
+      "peer": "DAA",
+      "signature": "4f5c6114508bf716b4967e65061418656abf681c88e81c87fb9dee091cde49ad2c70f8dfed2fb1b94776992120d327f320979d2da187c36276a684f67ea72a04"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "index": 9,
+  "timestamp": "2026-11-24T06:09:37Z",
+  "previous_hash": "efa74c60b3a8195b895cbf5ebe86e018d32d7a6550d07fc11943791e15135287",
+  "merkle_root": "0d2463f985107ecc39a06d390a3c33077850042f7d8001b1c65a6a0261ed8a74",
+  "hash": "2f4272e27a7347213b5c3e8dee81fee2d0c3047cdc7aaf080b720dcad00e8e9c",
+  "signature": "f95b705537894ce8c32c398852cae0beacd3002efac4f94e96f72ab2bcd4cba0331ab9862e9e362dcb4988d326df5cfa6679138eebfd0df5fa1d1f60641c180f",
+  "transactions": [
+   {
+    "action": "REGISTER",
+    "member": "AEROWORKS",
+    "data": {
+     "serial": "ATX-DEMO-001",
+     "description": "FAN BLADE SET",
+     "max_cycles": 5000,
+     "max_hours": 20000,
+     "certificate": "f79263395b1010801c88970285551d6605f49965c4f0223a0d5d396d634aa1b4"
+    },
+    "timestamp": "2026-11-24T06:09:37Z",
+    "signature": "165a2f976ea9d18b3ee5ff6a86b88120a15a8943bec4dc2c0c22b0284ce095c50293d4af871e34054d89d4f92e42472d50d8d8a9f87192066d4816d349386208",
+    "approvals": [
+     {
+      "peer": "AEROWORKS",
+      "signature": "59451002a744601222bf97da2dfd5b41fb95ea085b2a6fdbd647ba3a43325f09ffa95926dcdaf369673f6e59de23d04eb79ab393742c4cb5c68bae5692c7a102"
+     },
+     {
+      "peer": "SKYLINK",
+      "signature": "8f18aafdbfc639de80d9facdf6349b5ab280a97ab317a118728da36f2b3d4b9a2a5f76b50357e442637a736cdcebab82916fa8bd8369c0c351c8f8b221809302"
+     },
+     {
+      "peer": "NORTHWIND",
+      "signature": "f283f5251f6445d477399db82facd63bb96159c3e5cf9e6eee67081b43ea18d7cff9c551fee2b7d70afcfed9bae243cc45a8c8599844001ea54cc0396c548707"
+     },
+     {
+      "peer": "PRECISION",
+      "signature": "fa41a8ee47d2e2af918b9ec53be0b6961407da98fa5d226055611c877006f4603a8c26eef8442571acb4c992a98a3ac3544a3c63ef54f892eb496f08a6afa505"
+     },
+     {
+      "peer": "DAA",
+      "signature": "66a6d7bd6ced740e861d7aa41996893ea6ebc98d9496214470b413db83c9e89e07ad0d05eb084be02b4432ff03ca5d8d718338d318c92cc2cc9ead76e8451006"
+     }
+    ]
+   }
+  ]
+ }
+]

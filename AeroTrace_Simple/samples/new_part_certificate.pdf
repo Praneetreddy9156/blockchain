@@ -1,0 +1,137 @@
+%PDF-1.4
+%“Œ‹ž ReportLab Generated PDF document (opensource)
+1 0 obj
+<<
+/F1 2 0 R /F2 3 0 R /F3 4 0 R
+>>
+endobj
+2 0 obj
+<<
+/BaseFont /Helvetica /Encoding /WinAnsiEncoding /Name /F1 /Subtype /Type1 /Type /Font
+>>
+endobj
+3 0 obj
+<<
+/BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding /Name /F2 /Subtype /Type1 /Type /Font
+>>
+endobj
+4 0 obj
+<<
+/BaseFont /Helvetica-Oblique /Encoding /WinAnsiEncoding /Name /F3 /Subtype /Type1 /Type /Font
+>>
+endobj
+5 0 obj
+<<
+/Contents 9 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 8 0 R /Resources <<
+/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>> /Rotate 0 /Trans <<
+
+>> 
+  /Type /Page
+>>
+endobj
+6 0 obj
+<<
+/PageMode /UseNone /Pages 8 0 R /Type /Catalog
+>>
+endobj
+7 0 obj
+<<
+/Author (anonymous) /CreationDate (D:20000101000000+00'00') /Creator (anonymous) /Keywords () /ModDate (D:20000101000000+00'00') /Producer (ReportLab PDF Library - \(opensource\)) 
+  /Subject (unspecified) /Title (OEM Birth Record \(Certificate of Conformity - demo\)) /Trapped /False
+>>
+endobj
+8 0 obj
+<<
+/Count 1 /Kids [ 5 0 R ] /Type /Pages
+>>
+endobj
+9 0 obj
+<<
+/Length 2442
+>>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+.72549 .109804 .109804 rg
+BT /F2 10 Tf 12 TL ET
+BT 1 0 0 1 87.9128 801.8898 Tm (SYNTHETIC ACADEMIC DEMONSTRATION - NOT AN OFFICIAL RELEASE CERTIFICATE) Tj T* ET
+0 .12549 .356863 rg
+BT /F2 18 Tf 21.6 TL ET
+BT 1 0 0 1 50 756.8898 Tm (AeroTrace) Tj T* ET
+BT /F1 13 Tf 15.6 TL ET
+BT 1 0 0 1 50 736.8898 Tm (OEM Birth Record \(Certificate of Conformity - demo\)) Tj T* ET
+.007843 .517647 .780392 RG
+n 50 726.8898 m 545.2756 726.8898 l S
+.121569 .160784 .215686 rg
+BT /F2 10 Tf 12 TL ET
+BT 1 0 0 1 50 696.8898 Tm (Record ID) Tj T* ET
+BT /F1 10 Tf 12 TL ET
+BT 1 0 0 1 230 696.8898 Tm (AW-BR-2026-1101) Tj T* ET
+BT /F2 10 Tf 12 TL ET
+BT 1 0 0 1 50 676.8898 Tm (Manufacturer) Tj T* ET
+BT /F1 10 Tf 12 TL ET
+BT 1 0 0 1 230 676.8898 Tm (AeroWorks OEM \(fictional\)) Tj T* ET
+BT /F2 10 Tf 12 TL ET
+BT 1 0 0 1 50 656.8898 Tm (Part number) Tj T* ET
+BT /F1 10 Tf 12 TL ET
+BT 1 0 0 1 230 656.8898 Tm (AW-FAN-BL-2200) Tj T* ET
+BT /F2 10 Tf 12 TL ET
+BT 1 0 0 1 50 636.8898 Tm (Serial number) Tj T* ET
+BT /F1 10 Tf 12 TL ET
+BT 1 0 0 1 230 636.8898 Tm (ATX-DEMO-0001) Tj T* ET
+BT /F2 10 Tf 12 TL ET
+BT 1 0 0 1 50 616.8898 Tm (Description) Tj T* ET
+BT /F1 10 Tf 12 TL ET
+BT 1 0 0 1 230 616.8898 Tm (Fan blade set) Tj T* ET
+BT /F2 10 Tf 12 TL ET
+BT 1 0 0 1 50 596.8898 Tm (Manufacture date) Tj T* ET
+BT /F1 10 Tf 12 TL ET
+BT 1 0 0 1 230 596.8898 Tm (2026-11-01) Tj T* ET
+BT /F2 10 Tf 12 TL ET
+BT 1 0 0 1 50 576.8898 Tm (Approved life limit \(cycles\)) Tj T* ET
+BT /F1 10 Tf 12 TL ET
+BT 1 0 0 1 230 576.8898 Tm (5,000 FC) Tj T* ET
+BT /F2 10 Tf 12 TL ET
+BT 1 0 0 1 50 556.8898 Tm (Approved life limit \(hours\)) Tj T* ET
+BT /F1 10 Tf 12 TL ET
+BT 1 0 0 1 230 556.8898 Tm (20,000 FH) Tj T* ET
+BT /F2 10 Tf 12 TL ET
+BT 1 0 0 1 50 536.8898 Tm (Signatory) Tj T* ET
+BT /F1 10 Tf 12 TL ET
+BT 1 0 0 1 230 536.8898 Tm (K. Tanaka, Production Certification Engineer \(demo\)) Tj T* ET
+BT /F3 9 Tf 10.8 TL ET
+.278431 .333333 .411765 rg
+BT 1 0 0 1 50 90 Tm (Issued by AeroWorks OEM \(fictional organisation\) for an academic blockchain demonstration.) Tj T* ET
+BT 1 0 0 1 50 77 Tm (This record is synthetic. It is not an FAA Form 8130-3, EASA Form 1 or any regulatory document,) Tj T* ET
+BT 1 0 0 1 50 64 Tm (and it does not certify airworthiness of any real component.) Tj T* ET
+.72549 .109804 .109804 rg
+BT /F2 9 Tf 10.8 TL ET
+BT 1 0 0 1 108.8853 40 Tm (SYNTHETIC ACADEMIC DEMONSTRATION - NOT AN OFFICIAL RELEASE CERTIFICATE) Tj T* ET
+ 
+endstream
+endobj
+xref
+0 10
+0000000000 65535 f 
+0000000061 00000 n 
+0000000112 00000 n 
+0000000219 00000 n 
+0000000331 00000 n 
+0000000446 00000 n 
+0000000649 00000 n 
+0000000717 00000 n 
+0000001023 00000 n 
+0000001082 00000 n 
+trailer
+<<
+/ID 
+[<5e405e7be744f7bd1b495168a367540c><5e405e7be744f7bd1b495168a367540c>]
+% ReportLab generated PDF document -- digest (opensource)
+
+/Info 7 0 R
+/Root 6 0 R
+/Size 10
+>>
+startxref
+3575
+%%EOF
